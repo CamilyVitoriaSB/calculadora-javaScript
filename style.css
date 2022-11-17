@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    font-family: 'Playfair Display', serif;
+    width: 800;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+body{
+    background-image: linear-gradient(45deg , rgb(241, 144, 225) , rgb(163, 24, 48));
+    height: 100vh;
+    text-align: center;
+}
+.tabela{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background: rgba(0, 0, 0, 0.795);
+    width: 290px;
+    height: 290px;
+    border: solid black ;
+}
+.botao{
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 3px;
+    font-weight: bold;
+    background-color: rgb(37, 31, 32);
+    color: rgb(255, 255, 255);
+}
+.botao:hover{
+    background-color: rgb(196, 37, 103);
+}
+.resultado{
+    background-color: rgba(0, 0, 0, 0.733);
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 270px;
+    border: solid black ;
+}
+#result{
+    background-color: white;
+    width: 260px;
+    height: 30px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    width: 700;
+    font-size:25px;
+}
+.tabela2{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    background: rgba(0, 0, 0, 0.795);
+    width: 258px;
+    height: 290px;
+    border: solid black ;
+}
+.tabela3{
+    position: absolute;
+    top: 40%;
+    left: 62%;
+    background: rgba(0, 0, 0, 0.795);
+    width: 258px;
+    height: 290px;
+    border: solid black ;
+}
+.botao1{
+    width: 110px;
+    height: 60px;
+    font-size: 20px;
+    margin: 3px;
+    font-weight: bold;
+    background-color: rgb(37, 31, 32);
+    color: rgb(255, 255, 255);
+}
+.botao1:hover{
+    background-color: rgb(196, 37, 103);
+}
